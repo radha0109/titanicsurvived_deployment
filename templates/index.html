@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <h1>TITANIC SURVIVAL PREDICTION </h1>
+    <form action="/result" method="POST">
+<label for="Pclass">Pclass:</label>
+<input type="text" id="  Pclass" name="Pclass" placeholder="Pclass">
+<label for=" Age">Age:</label>
+<input type="text" id=" Age" name="Age" placeholder="Age">
+<label for="SibSp">SibSp:</label>
+<input type="text" id="SibSp" name="SibSp" placeholder="SibSp">
+    <label for="Parch">Parch:</label>
+<input type="text" id="Parch" name="Parch" placeholder="Parch">
+<label for="Fare">Fare:</label>
+<input type="text" id="Fare" name="Fare" placeholder="Fare">
+ <label for="Cabin_missing">Cabin_missing:</label>
+  <select id="Cabin_missing" name="Cabin_missing">
+    <<option value="yes">yes</option>
+    <option value="no">no</option>
+  </select>
+
+<label for="Age_missing"> Age_missing : </label>
+  <select id="Age_missing" name="Age_missing">
+    <option value="yes">yes</option>
+    <option value="no">no</option>
+  </select>
+   <label for="Ticket_length">Ticket_length:</label>
+<input type="text" id="Ticket_length" name="Ticket_length" placeholder="Ticket_length">
+    <label for="Cabin_missing">Cabin_missing:</label>
+  <select id="Sex" name="Sex">
+    <<option value="female">female</option>
+    <option value="male">male</option>
+  </select>
+
+    <label for="Embarked	"> Embarked	 : </label>
+  <select id="Embarked	" name="Embarked	">
+    <option value="Embarked_S">Embarked_S</option>
+    <option value="Embarked_C">Embarked_C</option>
+      <option value="Embarked_Q">Embarked_Q</option>
+  </select>
+
+<button type="submit">Predict</button>
+</body>
+</html>
