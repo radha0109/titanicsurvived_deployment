@@ -76,4 +76,4 @@ We are going to perform Exploratory Data Analysis for our problem in the first s
 •	Random Forest Classifier
 
 I deployed this project on HEROKU.
-Link: (https://dashboard.heroku.com/apps/titanic-survivedpred02)
+Link: (https://titanic-survivedpred02.herokuapp.com/)
